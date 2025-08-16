@@ -98,7 +98,7 @@ const About = () => {
 
             {/* ✅ Download Resume Button */}
             <motion.a
-              href="/Aditya_Resume.pdf"
+              href="assets/Aditya_Resume.pdf"
               download
               whileHover={{ y: -5 }}
               whileTap={{ scale: 1.05 }}
