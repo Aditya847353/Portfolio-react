@@ -1,22 +1,59 @@
 export const myProjects = [
   {
     id: 1,
-    title: "AI Assistant Pro",
+    title: "Brain Tumor Segmentation",
     description:
-       "A responsive AI Assistant web application with chat and summarization features powered by Google's Gemini API.",
+      "A deep learning-powered web application that performs automatic brain tumor segmentation from MRI scans using a 3D U-Net model.",
     subDescription: [
-      "Built a modular frontend using React.js, Tailwind CSS, and React Router for smooth page transitions.",
-      "Integrated Gemini API to provide real-time conversational AI and text summarization.",
-      "Developed a Node.js and Express.js backend with RESTful APIs to handle user queries and responses.",
-      "Deployed the full-stack application on Render with proper routing and state management.",
+      "Developed a 3D U-Net segmentation model using PyTorch and MONAI, achieving a Dice Score of 0.73 on the BraTS 2021 dataset.",
+      "Built a React and Tailwind CSS frontend that allows users to upload MRI scans and visualize segmentation results in real time.",
+      "Integrated model inference with an interactive interface for seamless medical image analysis.",
+      "Deployed the application on Vercel with a responsive UI and optimized user experience.",
     ],
-    href: "https://ai-assistant-pro-1.onrender.com/",
+    href: "https://tumor-segmentation-unet.vercel.app/",
     logo: "",
-    image: "/assets/projects/AI-Assistant.png",
+    image: "/assets/projects/tumor.png", // Update with your image path
     tags: [
       {
         id: 1,
-        name: "React.js",
+        name: "Python",
+        path: "/assets/logos/python.svg",
+      },
+      {
+        id: 2,
+        name: "PyTorch",
+        path: "/assets/logos/pytorch.svg",
+      },
+      {
+        id: 3,
+        name: "React",
+        path: "/assets/logos/react.svg",
+      },
+      {
+        id: 4,
+        name: "TailwindCSS",
+        path: "/assets/logos/tailwindcss.svg",
+      },
+    ],
+  },
+  {
+    id: 2,
+    title: "LC Tracker",
+    description:
+      "A full-stack MERN application with a Chrome Extension that automatically tracks and visualizes LeetCode progress.",
+    subDescription: [
+      "Built a Chrome Extension that automatically syncs accepted LeetCode submissions without manual input.",
+      "Implemented secure JWT authentication and REST APIs using Node.js, Express.js, and MongoDB.",
+      "Designed an analytics dashboard with heatmaps, streak tracking, topic-wise insights, and submission history using Recharts.",
+      "Deployed the frontend on Vercel and integrated it with a scalable backend for real-time tracking.",
+    ],
+    href: "https://leetcode-tracker-nu-one.vercel.app/",
+    logo: "",
+    image: "/assets/projects/LC.png", // Update with your image path
+    tags: [
+      {
+        id: 1,
+        name: "React",
         path: "/assets/logos/react.svg",
       },
       {
@@ -31,40 +68,13 @@ export const myProjects = [
       },
       {
         id: 4,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
-      },
-    ],
-  },
-  {
-    id: 2,
-    title: "Simon Game",
-    description:
-        "A classic memory-based Simon Game implemented using core web technologies.",
-    subDescription: [
-      "Developed using HTML, CSS, and JavaScript with smooth button animations and audio feedback.",
-      "Responsive layout and interactive UI to mimic the original Simon game logic.",
-      "Maintains game sequence using arrays and adds challenge with increasing difficulty.",
-      "Hosted with GitHub Pages for quick access and gameplay.",
-    ],
-    href: "https://aditya847353.github.io/The-Simon-Game/",
-    logo: "",
-    image: "/assets/projects/Simon.png",
-    tags: [
-      {
-        id: 1,
-        name: "HTML",
-        path: "/assets/logos/html5.svg",
+        name: "MongoDB",
+        path: "/assets/logos/mongodb.svg",
       },
       {
-        id: 2,
-        name: "CSS",
-        path: "/assets/logos/css3.svg",
-      },
-      {
-        id: 3,
-        name: "JavaScript",
-        path: "/assets/logos/javascript.svg",
+        id: 5,
+        name: "Chrome Extension",
+        path: "/assets/logos/chrome.svg",
       },
     ],
   },
@@ -86,16 +96,6 @@ export const mySocials = [
 
 export const experiences = [
 {
-    title: "Internshala Student Partner (ISP)",
-    job: "Internshala",
-    date: "July 2025 – Present",
-    contents: [
-      "Representing Internshala at NIT Jalandhar to promote online training and internship programs.",
-      "Organizing seminars, webinars, and social media campaigns to increase student engagement.",
-      "Building leadership, communication, and digital marketing skills while networking with peers.",
-    ],
-  },
-{
     title: "Web Developer Intern",
     job: "AD Infocom Systems (Remote)",
     date: "June – July 2025",
@@ -110,7 +110,7 @@ export const experiences = [
   job: "NIT Jalandhar",
   date: "2023 – Present",
   contents: [
-    "Currently pursuing Bachelor of Technology in Information Technology (3rd Year) at Dr BR Ambedkar National Institute of technology Jalandhar , Punjab.",
+    "Currently pursuing Bachelor of Technology in Information Technology (4rth Year) at Dr BR Ambedkar National Institute of technology Jalandhar , Punjab.",
   ],
 }
 ];

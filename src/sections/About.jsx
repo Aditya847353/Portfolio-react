@@ -98,7 +98,7 @@ const About = () => {
 
             {/* ✅ Download Resume Button */}
             <motion.a
-              href="assets/Aditya_Resume.pdf"
+              href="assets/ADK_new.pdf"
               download
               whileHover={{ y: -5 }}
               whileTap={{ scale: 1.05 }}
@@ -115,12 +115,12 @@ const About = () => {
               <p className="headText mb-3 md:mb-4 text-xl">Skills</p>
               <ul className=" z-20 list-disc list-inside text-gray-300 space-y-1 text-xs w-full md:text-sm ">
                 <li><strong>Languages:</strong> C, C++, JavaScript, HTML, CSS, SQL</li>
+                <li><strong>Machine Learning</strong></li>
                 <li><strong>Frontend:</strong> React.js, Tailwind CSS</li>
                 <li><strong>Backend:</strong> Node.js, Express.js, REST APIs</li>
                 <li><strong>Database:</strong> MongoDB</li>
                 <li><strong>Tools:</strong> Git, GitHub, Postman, VS Code, NPM, Render</li>
                 <li><strong>Data Structures and Algorithms</strong></li>
-                <li><strong>Other Skills:</strong> Deployment, Debugging</li>
 
               </ul>
             </div>
